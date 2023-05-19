@@ -1,0 +1,130 @@
+1. Test category Buttons' Function
+
+    Test Steps
+1. Launch url https://automationteststore.com/
+2. Click any button from category menu
+
+    Expected Result
+Should navigate to the page with the products of the choosen category.
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+2. Test Product Choosing Function
+
+    Test Steps
+1. Launch url https://automationteststore.com/index.php?rt=product/category&path=36
+2. Click on name or image of any product
+
+    Expected Result
+Should navigate to the page with the selected product description. 
+
+/////////////////////////////////////////////////////////////////////////////////////////
+
+3. Test Product Type Choosing Function
+
+    Test Steps
+1. Launch url https://automationteststore.com/index.php?rt=product/product&path=36&product_id=53
+2. Click on dropdown list of the product's colors
+3. Choose another color
+
+    Expected Result
+Should change the product color in dropdown list from default to selected one.
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+4. Test Add to Cart Button Function
+
+    Test Steps
+1. Launch url https://automationteststore.com/index.php?rt=product/product&path=36&product_id=53
+2. Click the button "Add to Cart"
+
+    Expected Result
+Should navigate to the Shopping Cart page with the choosen product in it.
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+5. Test Checkout Function
+
+    Test Steps
+1. Launch url https://automationteststore.com/index.php?rt=product/product&path=36&product_id=53
+2. Click the button "Add to Cart"
+3. Click the button "Checkout" in Shopping Cart page
+
+    Expected Result
+Should navigate to Account Login page.
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+6. Test Search Function
+
+    Test Steps
+1. Launch url https://automationteststore.com/
+2. Click in Search field
+3. Type any product's name
+4. Click enter
+
+    Expected Result
+Should navigate to the page with the searched product's description.
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+7. Test Product's Minimum Quantity Function
+
+    Test Steps
+1. Launch url https://automationteststore.com/index.php?rt=product/product&product_id=52
+2. Click on Quantity field
+3. Type a number less than the minimum quantity of the product
+4. Click enter
+
+    Expected Result
+Should navigate to the Shopping Cart page with the choosen product in it
+and show message "Allowed product's quantity is below minimum required. Quantity was set to minimum amount".
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+8. Test Delete Function of Shopping Cart
+
+    Test Steps
+1. Launch url https://automationteststore.com/
+2. Click in Search field
+3. Type any product's name
+4. Click enter
+5. Click the button "Add to Cart"
+6. In Shopping Cart click delete button in front of the product
+
+
+    Expected Result
+Should delete the choosen product from Shoping Cart.
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+9. Test Review Function without Captcha
+
+    Test Steps
+1. Launch url https://automationteststore.com/index.php?rt=product/product&path=36_37&product_id=61
+2. Click on Review button below the product
+3. Type any product's name
+4. Choose rating stars
+5. Fill valid name
+6. Fill valid review
+7. Click Submit button
+
+    Expected Result
+Should show message "Human verification has failed! Please try again".
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+10. Test Contact Us Function
+
+    Test Steps
+1. Launch url https://automationteststore.com/
+2. Click Contact Us button from Info Links Footer
+3. Fill name
+4. Fill email
+5. Fill enquiry
+5. Click Submit button
+
+    Expected Result
+Should show message "Your enquiry has been successfully sent to the store owner!".
+
+///////////////////////////////////////////////////////////////////////////////////////////////
